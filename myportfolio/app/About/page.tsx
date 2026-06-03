@@ -12,7 +12,13 @@ function Page() {
           Python Programming Language with also hands on the C# and C++ languages
           
           I have completed my graduation from Galgotias Univerity from B.tech Computer Science and Engineering
-          specialization on game technologies.</p>
+          specialization on game technologies.
+          </p>
+          <p> 
+            About the skills
+            Unity , unreal engine 
+            gameplay mechanics scripting
+          </p>
     </div>
     </>
   )

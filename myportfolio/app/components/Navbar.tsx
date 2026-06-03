@@ -1,6 +1,4 @@
-"use client";
 import React from 'react'
-import page from '../page'
 function Navbar() {
   return (
     <>
@@ -8,13 +6,12 @@ function Navbar() {
       
               
         <nav >
-          
-          
-            <a href="/"> Home  </a>
-            <a href="/About"> About Me  </a>
-            <a href="/Projects"> Projects   </a>
-            <a href="/Contact"> Contact   </a>
-            <a href="/Resume"> Resume   </a>
+            <a href="/" className="NavComponent"> Home  </a>
+            <a href="/About" className="NavComponent"> About Me  </a>
+            <a href="/Projects"className="NavComponent"> Projects   </a>
+            <a href="/Contact"className="NavComponent"> Contact   </a>
+            
+            <input type="button" value="Resume" className="DownloadResume" onClick={() => window.open('/resume.pdf', '_blank')}/> 
             
         </nav>
     </div>
