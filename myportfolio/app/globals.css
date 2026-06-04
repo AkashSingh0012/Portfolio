@@ -182,12 +182,39 @@ padding: 2px;
   align-items: flex-start;
   gap: 24px;
   padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .Text {
   flex: 1;
 }
 
+.Text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b388ff;
+  margin-bottom: 8px;
+}
+
+.Text h3 {
+  font-size: 1.2rem;
+  color: #b388ff;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  border-left: 3px solid #b388ff;
+  padding-left: 10px;
+}
+
+
+.Text p, .Text li {
+  color: #e0e0e0;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+.Text ul {
+  padding-left: 20px;
+}
 .Image {
   flex: 1;
   display: flex;
@@ -206,6 +233,7 @@ padding: 2px;
 
   .Image {
     justify-content: center;
+      box-shadow: 0 4px 20px rgba(179, 136, 255, 0.2);
   }
 }
 /* Project Description css ends here */

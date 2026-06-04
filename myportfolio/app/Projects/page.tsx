@@ -48,7 +48,7 @@ function Page() {
         />
         <Cardholder
         title="3d Models"
-        image="placeholder.png"
+        image="India3dModelpng.png"
         tags={["Blender","3d","GameAssests", ]}
         route="/Projects/blender_models"/>
 
