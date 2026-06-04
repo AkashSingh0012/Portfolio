@@ -30,7 +30,7 @@ function page() {
     <p>
       Through this project I gained practical experience with Unity’s New Input System,
       gameplay scripting, state management, and level design workflows.
-    </p>c:\Users\akash\OneDrive\Desktop\AkashResume.pdf
+    </p>
   </div>
 
   <div className="Image">

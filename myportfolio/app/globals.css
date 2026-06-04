@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #000000;
+  --background: #000000;
+  --foreground: #ffffff;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 }
 .DownloadResume{
   color: var(--foreground);
-  background: rgb(243, 0, 0);
+  background: rgb(109, 20, 168);
 
 }
 /* Navigation Bar Ends */
@@ -31,13 +31,40 @@ body {
 
 /* Home Page CSS */
 .NameBlock{
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
 }
 .Naming{
+  color: var(--foreground);
   padding: 10px;
-  align-content: center;
-  justify-content: right;
+  font-size: larger;
+  font-weight: bold;
 }
+
+
+.Taketoproject{
+  color: var(--foreground)
+}
+.Taketoproject button {
+  background-color: #2a2a2a;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: background-color 0.3s ease,
+              transform 0.2s ease;
+}
+
+.Taketoproject button:hover {
+  background-color: #b388ff; /* light purple */
+  transform: translateY(-2px);
+}
+
 /* Home Page CSS ends */
 
 

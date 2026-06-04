@@ -8,16 +8,14 @@ function Page() {
     <div>
         <h1>About Me</h1>
         
-        <p> Hello My name is Akash Singh a aspiring game developer and programmer with the base on 
-          Python Programming Language with also hands on the C# and C++ languages
-          
-          I have completed my graduation from Galgotias Univerity from B.tech Computer Science and Engineering
-          specialization on game technologies.
-          </p>
-          <p> 
-            About the skills
-            Unity , unreal engine 
-            gameplay mechanics scripting
+        <p> Hey, I'm Akash Singh  - a game developer and programmer based in Greater Noida, India. I
+          graduated with B.Tech in Computer Science and Engineering(Game Technology) from Galgotias University
+          in 2025.
+          I specialize in Unity and C# with focus on gameplay systems  and interactive experince. Beyond games, I worked
+          across 3D asset creation in Blender, backend developement and Python tooling.
+
+          I enjoy building things that are technically intersting or objectively dumb.
+
           </p>
     </div>
     </>

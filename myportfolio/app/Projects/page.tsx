@@ -19,7 +19,7 @@ function Page() {
           title="Voxel World Generator"
           image="/Voxelworld.png"
           tags={["Unity", "Procedural Generation"]}
-          route="/Projects/voxel-world-generator"
+          route="/Projects/voxelworld"
         />
 
         <Cardholder
@@ -32,7 +32,7 @@ function Page() {
           title="TCG Style Card Prototype"
           image="/TCG.jpg"
           tags={["Unity", "C#", "TCG"]}
-          route="/Projects/tcg-style-card-prototype"
+          route="/Projects/TCGcardprototype"
         />
         <Cardholder
         title="Drag and Drop interaction "
