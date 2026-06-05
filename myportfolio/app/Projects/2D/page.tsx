@@ -1,8 +1,7 @@
 "use client";
-
-import React from 'react'
-import Navbar from "@/app/components/Navbar";
 import Cardholder from '@/app/components/Cardholder';
+import Navbar from '@/app/components/Navbar';
+import React from 'react'
 
 function page() {
   return (
@@ -10,9 +9,9 @@ function page() {
     <Navbar/>
     <div className="CardSpace">
         <Cardholder
-        title =""
-        image = "Placeholder.jpg"
-        tags={["Python", "QGIS" ]}
+        title ="Web Dev"
+        image = "/Placeholder.png"
+        tags={["html", "Next", "prisma" ]}
         route=""/>
     </div>
     </>

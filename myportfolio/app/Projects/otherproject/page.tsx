@@ -13,6 +13,12 @@ function page() {
         tags={["Python", "Programming"]}
         route="/Projects/otherproject/PythonProjects"
         />
+        <Cardholder
+        title ="Web Dev"
+        image = "Placeholder.jpg"
+        tags={["html", "Next", "prisma" ]}
+        route=""/>
+
     </div>
     </>
   )

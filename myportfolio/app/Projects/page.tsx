@@ -10,7 +10,7 @@ function Page() {
     <>
       <Navbar />
 
-      <div className="ProjectPagehead">Projects</div>
+      <div className="ProjectPagehead">PROJECTS</div>
 
       <div className="CardSpace">
       
@@ -30,7 +30,7 @@ function Page() {
         />
           <Cardholder
           title="TCG Style Card Prototype"
-          image="/TCG.jpg"
+          image="/TCG.png"
           tags={["Unity", "C#", "TCG"]}
           route="/Projects/TCGcardprototype"
         />
@@ -38,25 +38,26 @@ function Page() {
         title="Drag and Drop interaction "
         image="/dragdrop.png"
         tags={["unity","New Input System"]}
-        route=""
+        route="/Projects/DragNdrop"
         />
         <Cardholder
         title="Role-based Collaboration Sheets  "
         image="placeholder.png"
         tags={["RBAC", "Next", "Postgres", "Prisma"]}
-        route=""
+        route="/Projects/RBCS" // ROLE BASED COLLABORATIVE SHEETS 
         />
         <Cardholder
         title="3d Models"
         image="India3dModelpng.png"
         tags={["Blender","3d","GameAssests", ]}
-        route="/Projects/blender_models"/>
+        route="/Projects/3DModels"/>
 
         <Cardholder
         title="2d"
         image="2d.png"
         tags={["Krita", "Tiles", "Art"]}
-        route=""/>
+        route="/Projects/2D"
+        />
 
         <Cardholder
         title="Other Projects"
