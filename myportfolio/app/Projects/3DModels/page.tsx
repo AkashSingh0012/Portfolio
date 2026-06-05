@@ -21,7 +21,7 @@ function page() {
             />
             <Cardholder
             title="Barrel "
-            image="/Placeholder.png"
+            image="/barrel.png"
             tags={["Blender"]}
             route=""
             />

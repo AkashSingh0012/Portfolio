@@ -9,9 +9,9 @@ function page() {
     <Navbar/>
     <div className="CardSpace">
         <Cardholder
-        title ="Web Dev"
+        title =""
         image = "/Placeholder.png"
-        tags={["html", "Next", "prisma" ]}
+        tags={[]}
         route=""/>
     </div>
     </>

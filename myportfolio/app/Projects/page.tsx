@@ -42,7 +42,7 @@ function Page() {
         />
         <Cardholder
         title="Role-based Collaboration Sheets  "
-        image="placeholder.png"
+        image="/RBCS.png"
         tags={["RBAC", "Next", "Postgres", "Prisma"]}
         route="/Projects/RBCS" // ROLE BASED COLLABORATIVE SHEETS 
         />
@@ -56,14 +56,16 @@ function Page() {
         title="2d"
         image="2d.png"
         tags={["Krita", "Tiles", "Art"]}
-        route="/Projects/2D"
+        //route="/Projects/2D"
+        route="/Projects/UnderDeveopment"
         />
 
         <Cardholder
         title="Other Projects"
         image="otherProject.png"
         tags = {["Python", "Web Dev", "ML"]}
-        route="/Projects/otherproject"
+        //route="/Projects/otherproject"
+        route = "/Projects/UnderDevelopment"
         />
       </div>
     </>

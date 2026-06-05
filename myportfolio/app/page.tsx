@@ -13,6 +13,7 @@ export default function Home() {
     <div className=" NameBlock">
     <div className="Naming">
      <h2> Akash Singh</h2>
+     <p> Game Developer | web developer | python programmer</p> 
      <br/>
     </div>
    

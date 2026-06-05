@@ -5,8 +5,9 @@ function Page() {
   return (
     <>
       <Navbar />
-    <div>
-        <h1>About Me</h1>
+    <div className="ProjectDescription">
+      <div className="Text">
+        <h2>About Me</h2>
         
         <p> Hey, I'm Akash Singh  - a game developer and programmer based in Greater Noida, India. I
           graduated with B.Tech in Computer Science and Engineering(Game Technology) from Galgotias University
@@ -17,6 +18,29 @@ function Page() {
           I enjoy building things that are technically intersting or objectively dumb.
 
           </p>
+          <h2> Skills</h2>
+          <ul className="SkillList">
+            <li className="Tag"> Unity</li>
+            <li className="Tag"> Blender</li>
+            <li className="Tag"> C# </li>
+            <li className="Tag"> Unreal Engine 5</li>
+            <li className="Tag"> Python</li>
+            <li className="Tag"> React</li>
+            <li className="Tag"> Prisma ORM</li>
+            <li className="Tag"> Postgres</li>
+            <li className="Tag"> Git</li>
+            <li className="Tag"> QGIS</li>
+            <li className="Tag"> Nextjs</li>
+            <li className="Tag"> TypeScript</li>
+            <li className="Tag"> Machine Learning</li>
+            
+          </ul>
+          
+          </div>
+          <div className="Image">
+            <img src="/Placeholder.png"/>
+          </div>
+          
     </div>
     </>
   )
