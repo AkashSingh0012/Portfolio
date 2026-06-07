@@ -65,7 +65,7 @@ function Page() {
         image="otherProject.png"
         tags = {["Python", "Web Dev", "ML"]}
         //route="/Projects/otherproject"
-        route = "/Projects/UnderDevelopment"
+        route = "/Projects/otherproject"
         />
       </div>
     </>
