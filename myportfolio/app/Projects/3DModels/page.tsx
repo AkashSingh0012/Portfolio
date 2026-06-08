@@ -10,7 +10,7 @@ function page() {
         <div className="CardSpace">
             <Cardholder
             title ="Leh"
-            image = "/leh.png"
+            image = "/3dmodels/leh.png"
             tags={["QGIS" , "Blender", "OSM","satellite imaging" ]}
             route=""/>
             <Cardholder
@@ -21,19 +21,19 @@ function page() {
             />
             <Cardholder
             title="Barrel "
-            image="/barrel.png"
+            image="/3dmodels/barrel.png"
             tags={["Blender"]}
             route=""
             />
             <Cardholder
             title="brickwall model"
-            image="/brickwallmodel.png"
+            image="/3dmodels/brickwallmodel.png"
             tags={["Blender"]}
             route=""
             />
             <Cardholder
             title="BlockMan Rig"
-            image="/SimpleRigs.png"
+            image="/3dmodels/SimpleRigs.png"
             tags={["Blender", "Rigging", "Animation"]}
             route=""/>
         </div>
