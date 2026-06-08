@@ -32,7 +32,7 @@ function page() {
   </div>
 
   <div className="Image">
-    <img src="/voxelworld.png" alt="voxelworld" />
+    <img src="/Voxelworld.png" alt="/Voxelworld" />
   
   </div>
 </div>
