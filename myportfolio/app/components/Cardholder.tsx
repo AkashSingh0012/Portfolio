@@ -2,19 +2,21 @@
 
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 interface CardProps {
   title: string;
   image: string;
   tags?: string[];
   route: string;
+  priority?: boolean;
 }
 
-function Cardholder({ title, image, tags, route }: CardProps) {
+function Cardholder({ title, image, tags, route ,priority}: CardProps) {
   return (
     <Link href={route} className="CardBlock">
       <div className="ProjectImage">
-        <img src={image} alt={title} />
+        <Image src={image} alt={title} width={400} height={250}
+        priority={priority} />
       </div>
 
       <div className="ProjectTitle">{title}</div>

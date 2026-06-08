@@ -31,6 +31,11 @@ function page() {
             tags={["Blender"]}
             route=""
             />
+            <Cardholder
+            title="BlockMan Rig"
+            image="/SimpleRigs.png"
+            tags={["Blender", "Rigging", "Animation"]}
+            route=""/>
         </div>
     </div>
     </>

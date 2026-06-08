@@ -11,7 +11,7 @@ function page() {
     <div className="CardSpace">
         <Cardholder
         title =""
-        image = "Placeholder.jpg"
+        image = "/Placeholder.jpg"
         tags={["Python", "QGIS" ]}
         route=""/>
     </div>

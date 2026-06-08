@@ -9,7 +9,6 @@ function Page() {
         <p> Feel free to reach out regarding opportunity, collaboration or project discussions.</p>
         <br></br>
         <div >
-        Mobile Number: 8377954041<br/>
         email: akashsingh.as.pb@gmail.com   
         </div>
 

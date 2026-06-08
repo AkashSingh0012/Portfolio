@@ -20,6 +20,7 @@ function Page() {
           image="/Voxelworld.png"
           tags={["Unity", "Procedural Generation"]}
           route="/Projects/voxelworld"
+          priority={true}
         />
 
         <Cardholder
@@ -27,45 +28,53 @@ function Page() {
           image="/2dplatformer.png"
           tags={["Unity2d", "Sprite","Platformer"]}
           route="/Projects/2dplatformer"
+          priority={true}
         />
           <Cardholder
           title="TCG Style Card Prototype"
           image="/TCG.png"
           tags={["Unity", "C#", "TCG"]}
           route="/Projects/TCGcardprototype"
+          priority={true}
         />
         <Cardholder
         title="Drag and Drop interaction "
         image="/dragdrop.png"
         tags={["unity","New Input System"]}
         route="/Projects/DragNdrop"
+        priority={false}
         />
         <Cardholder
         title="Role-based Collaboration Sheets  "
         image="/RBCS.png"
         tags={["RBAC", "Next", "Postgres", "Prisma"]}
         route="/Projects/RBCS" // ROLE BASED COLLABORATIVE SHEETS 
+        priority={true}
         />
         <Cardholder
         title="3d Models"
-        image="India3dModelpng.png"
+        image="/India3dModelpng.png"
         tags={["Blender","3d","GameAssests", ]}
-        route="/Projects/3DModels"/>
+        route="/Projects/3DModels"
+        priority={false}
+        />
 
         <Cardholder
         title="2d"
-        image="2d.png"
+        image="/2d.png"
         tags={["Krita", "Tiles", "Art"]}
         //route="/Projects/2D"
         route="/Projects/UnderDeveopment"
+        priority={false}
         />
 
         <Cardholder
         title="Other Projects"
-        image="otherProject.png"
+        image="/otherProject.png"
         tags = {["Python", "Web Dev", "ML"]}
         //route="/Projects/otherproject"
         route = "/Projects/otherproject"
+        priority={false}
         />
       </div>
     </>
