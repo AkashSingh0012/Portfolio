@@ -37,13 +37,7 @@ function Page() {
           route="/Projects/TCGcardprototype"
           priority={true}
         />
-        <Cardholder
-        title="Drag and Drop interaction "
-        image="/dragdrop.png"
-        tags={["unity","New Input System"]}
-        route="/Projects/DragNdrop"
-        priority={false}
-        />
+        
         <Cardholder
         title="Role-based Collaboration Sheets  "
         image="/RBCS.png"
@@ -58,13 +52,26 @@ function Page() {
         route="/Projects/3DModels"
         priority={false}
         />
+        <Cardholder
+        title=""
+        image="/3dModelViewer.png"
+        tags={["Next", "Three.js","JSON Config"]}
+        route="/Projects/3DmodelViewer"
+        priority={false}/>
+        <Cardholder
+        title="NLP Flashcard Tool"
+        image="/Placeholder.png"
+        tags={["Python", "NLP", "Research Project","IEEE paper"]}
+        route="/Projects/UnderDevlopment"
+        priority={false}
+        />
 
         <Cardholder
         title="2d"
         image="/2d.png"
         tags={["Krita", "Tiles", "Art"]}
         //route="/Projects/2D"
-        route="/Projects/UnderDeveopment"
+        route="/Projects/UnderDevlopment"
         priority={false}
         />
 
@@ -76,6 +83,8 @@ function Page() {
         route = "/Projects/otherproject"
         priority={false}
         />
+        
+
       </div>
     </>
   );

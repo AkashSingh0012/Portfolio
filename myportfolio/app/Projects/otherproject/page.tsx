@@ -9,16 +9,21 @@ function page() {
     <div className="CardSpace">
         <Cardholder
         title="Python Projects"
-        image="/Placeholder.png"
+        image="/otherprojects/python.png"
         tags={["Python", "Programming"]}
         route="/Projects/otherproject/PythonProjects"
         />
         <Cardholder
         title ="Web Dev"
-        image = "/Placeholder.png"
+        image = "/otherprojects/web.png"
         tags={["html", "Next", "prisma" ]}
         route="/Projects/UnderDevelopment"/>
-
+        <Cardholder
+        title=" UnityProjects"
+        image="/otherprojects/GD.png"
+        
+        tags ={["unity6", "unrealEngine"]}
+        route="/Projects/otherproject/UnityUnrealProjects"/>
     </div>
     </>
   )

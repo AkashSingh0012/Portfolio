@@ -7,7 +7,7 @@ function page() {
     <>
     <div className="ProjectDescription">
         <div className="Text">
-            <h2> PAGE UNDER PROGRESS </h2>
+            <h2> PAGE UNDER DEVLOPMENT </h2>
             
             <div className="Taketoproject"><button onClick={() => router.push("/Projects")}> Take me Back</button></div>
         </div>

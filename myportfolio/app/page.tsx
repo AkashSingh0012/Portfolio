@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation"
 import "./globals.css";
 import Navbar from "@/app/components/Navbar";
-import Socials from "@/app/components/socials"
+import Socials from "@/app/components/socials";
 
 export default function Home() {
   const router= useRouter();
@@ -24,6 +24,9 @@ export default function Home() {
     
     </div>
       <Socials/>
+
+    
     </>
+
   );
 }

@@ -42,6 +42,15 @@ function Page() {
           </div>
           
     </div>
+    <div className="ProjectDescription">
+      <div className="Text">
+        <h2> Experience</h2>
+        <p></p>
+      </div>
+      <div className="Image">
+        <img src="/Placeholder.png"/>
+      </div>
+    </div>
     </>
   )
 }

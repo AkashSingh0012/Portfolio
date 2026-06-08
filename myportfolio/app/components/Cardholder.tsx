@@ -22,7 +22,7 @@ function Cardholder({ title, image, tags, route ,priority}: CardProps) {
       <div className="ProjectTitle">{title}</div>
 
       <div className="ProjectTags">
-        {tags?.map((tag) => (
+        {tags?.map((tag) => ( 
           <span key={tag} className="Tag">
             {tag}
           </span>

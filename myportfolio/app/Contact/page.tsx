@@ -52,8 +52,8 @@ function Page() {
       <div> Want To get in Touch</div> 
         <br/>
         <br/>
-        <div className="Tag">
-          <fieldset className="ContactMefield">
+        <div className="ContactMe ">
+          <fieldset >
             <label>Name</label><br/>
             <input type="text" placeholder='Name' onChange={(e) => setName(e.target.value)}></input><br/>
             <label>Email Address</label><br/>
