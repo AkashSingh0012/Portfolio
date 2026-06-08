@@ -57,9 +57,9 @@ function Page() {
             <label>Name</label><br/>
             <input type="text" placeholder='Name' onChange={(e) => setName(e.target.value)}></input><br/>
             <label>Email Address</label><br/>
-            <input type="text" placeholder='Email' onChange={(e) => setName(e.target.value)}/><br/>
+            <input type="text" placeholder='Email'   onChange={(e) => setEmail(e.target.value)}/><br/>
             <label>Message</label><br/>
-            <textarea placeholder="Enter message here" rows={10} className="ContactMefield_messagebox"onChange={(e) => setName(e.target.value)} /> <br/>
+            <textarea placeholder="Enter message here" rows={10} className="ContactMefield_messagebox" onChange={(e) => setMessage(e.target.value)}/> <br/>
             <button type="submit" onClick={handleSubmit} >Submit </button>
           </fieldset>
         </div>
