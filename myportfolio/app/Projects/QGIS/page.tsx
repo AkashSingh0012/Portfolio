@@ -8,9 +8,14 @@ function page() {
     <>
     <Navbar/>
 
-    <div>
-    <div>QGIS Scripts</div>
+    <div className="Project Description">
+    <div className="Text">
+      <h2>QGIS Scripts </h2>
+      <h3> Overview</h3>
+      <p> The Following scripts were made during my time using QGIS software. While there are multiple script as such the </p>
 
+
+      </div>
     <CodeBlock
     code ={``}
     language='Python'

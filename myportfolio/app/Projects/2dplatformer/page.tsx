@@ -37,6 +37,9 @@ function page() {
     <img src="/2dplatformer.png" alt="2D Platformer" />
   </div>
 </div>
+<div>
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7358734733859545089?compact=1" height="399" width="504" title="2D Platformer"></iframe>
+</div>
     </>
   )
 }

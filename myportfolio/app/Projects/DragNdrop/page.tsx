@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '@/app/components/Navbar';
 import CodeBlock from '@/app/components/Code';
+import FileExplorer from '@/app/components/fileexplorer';
 function page() {
   return (
     <>
@@ -45,11 +46,13 @@ function page() {
         </div> 
     </div>
 
-    <div className="ProjectDescription">
-        <div >
-    <CodeBlock
-    FileName="DragDrop.cs"
-    code={`using System.Collections;
+    <div className="CodeSection">
+        
+<FileExplorer 
+files= {[
+    { filename: "DragDrop.cs",
+      language: "C#",
+    code:`using System.Collections;
 using UnityEngine;
 
 public class DragDrop : MonoBehaviour
@@ -129,15 +132,11 @@ public class DragDrop : MonoBehaviour
 
         rb.isKinematic = false;
     }
-}
-`}
-
-    language='C#'
-    />
-
-    <CodeBlock
-    FileName="CountProps.cs"
-    code={`using UnityEngine;
+}`}
+    ,
+    {filename:"CountProps.cs",
+        language: "C#",
+        code:`using UnityEngine;
 using TMPro;
 public class countProps : MonoBehaviour
 {
@@ -205,14 +204,13 @@ public class countProps : MonoBehaviour
         BOX.text = table2Count.ToString();
         
     }
-}
-`}
+}`
+    }
+]}
+/>
 
-language='C#'
-/>    
 
 </div>
-    </div>
     
     </>
   )

@@ -10,15 +10,21 @@ function page() {
     <Navbar/>
     <div className="CardSpace">
         <Cardholder
-        title ="QGIS Scripts"
-        image = "/Placeholder.jpg"
+        title ="QGIS Script"
+        image = "/Placeholder.png"
         tags={["Python", "QGIS" ]}
-        route="Projects/QGIS"/>
+        route="/Projects/QGIS"/>
         <Cardholder
         title="Drought Prediction Model"
         image="/Placeholder.png"
         tags={["ML", "Python"]}
-        route="/"/>
+        route="/Projects/DroughtPrediction"/>
+        <Cardholder
+        title="Encryption Hypothesis"
+        image="/Placeholder.png"
+        tags={["Python"]}
+        route="/Project/Encryptionhypo"
+        />
     </div>
     </>
   )
