@@ -46,7 +46,6 @@ function page() {
         </div>
         <p style={{display:"flex",justifyContent:"center"}}> Indian Model which was made for the project.</p>
 
-        sfasgit 
         </div>
     </div>
 
