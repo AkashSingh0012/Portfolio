@@ -62,7 +62,7 @@ function Page() {
         title="NLP Flashcard Tool"
         image="/Placeholder.png"
         tags={["Python", "NLP", "Research Project","IEEE paper"]}
-        route="/Projects/UnderDevlopment"
+        route="/Projects/NLPtool"
         priority={false}
         />
 
@@ -73,12 +73,8 @@ function Page() {
         route="/Projects/UnderDevlopment"
         priority={false}
         />
-        <Cardholder
-        title="Horror Game Prototype"
-        image="/Placeholder.png"
-        tags = {["UE5",""]}
-        route=""
-        />
+        
+       
 
         <Cardholder
         title="Other Projects"

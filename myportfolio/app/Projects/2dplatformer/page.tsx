@@ -35,12 +35,11 @@ function page() {
   </div>
 
   <div className="Image">
-    <img src="/2dplatformer.png" alt="2D Platformer" />
+      <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7358734733859545089?compact=1" height="399"  allowFullScreen width="504" title="2D Platformer"></iframe>
   </div>
 </div>
 <div className="ProjectDescription">
 <div>
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7358734733859545089?compact=1" height="399"  allowFullScreen width="504" title="2D Platformer"></iframe>
 </div>
 </div>
 
