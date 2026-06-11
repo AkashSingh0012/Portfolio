@@ -70,16 +70,20 @@ function Page() {
         title="2d"
         image="/2d.png"
         tags={["Krita", "Tiles", "Art"]}
-        //route="/Projects/2D"
         route="/Projects/UnderDevlopment"
         priority={false}
+        />
+        <Cardholder
+        title="Horror Game Prototype"
+        image="/Placeholder.png"
+        tags = {["UE5",""]}
+        route=""
         />
 
         <Cardholder
         title="Other Projects"
         image="/otherProject.png"
         tags = {["Python", "Web Dev", "ML"]}
-        //route="/Projects/otherproject"
         route = "/Projects/otherproject"
         priority={false}
         />
