@@ -46,6 +46,20 @@ function Page() {
       <div className="Text">
         <h2> Experience</h2>
         <p></p>
+        <ul>
+          <li> IIT Roorkee:Feb 2026 - present</li>
+          <ul>
+            <li>
+
+            </li>
+          </ul>
+          <li>
+            Hex Software-Intern          
+            <ul>
+              <li></li>
+            </ul>
+          </li>
+        </ul>
       </div>
       <div className="Image">
         <img src="/Placeholder.png"/>
