@@ -1,6 +1,7 @@
 "use client";
 import React from 'react'
 import Navbar from '@/app/components/Navbar'
+import Image from "next/image";
 function Page() {
   return (
     <>
@@ -35,35 +36,30 @@ function Page() {
             <li className="Tag"> Machine Learning</li>
             
           </ul>
-          
-          </div>
-          <div className="Image">
-            <img src="/Placeholder.png"/>
-          </div>
-          
-    </div>
-    <div className="ProjectDescription">
-      <div className="Text">
-        <h2> Experience</h2>
-        <p></p>
-        <ul>
-          <li> IIT Roorkee:Feb 2026 - present</li>
-          <ul>
-            <li>
 
-            </li>
-          </ul>
-          <li>
-            Hex Software-Intern          
+          <h2> Experience</h2>
+          <ul>
+            <li> IIT Roorkee Feb 2026- Present</li>
             <ul>
-              <li></li>
+              <li>Designed database schema and backend APIs using Prisma ORM and TypeScript for the summit's delegate management system</li>
+              <li>
+                Built abstract submission portal and admin panel that handled 181 delegate registrations across a 3-day, 385+ attendee summit
+              </li>
             </ul>
-          </li>
-        </ul>
-      </div>
-      <div className="Image">
-        <img src="/Placeholder.png"/>
-      </div>
+
+            <li> We Attach Tech Nov2025- Dec 2025</li>
+            <ul>
+              <li>Developed YOLOv6 object detection model for real-time monkey detection over RTSP video streams during the evaluation period</li>
+            </ul>
+
+          </ul>
+
+          
+          
+          </div>
+          <div className="Image">  
+        <Image src={"/Placeholder.png"} alt={"Placeholder.png"} width={240} height={240}/>  
+          </div>
     </div>
     </>
   )

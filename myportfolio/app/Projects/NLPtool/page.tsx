@@ -20,7 +20,16 @@ function page() {
                 By that the program makes the flashcard from the notes.
                 To add more features to the project the test yourself was also added to let the user test there knowledge based on the notes they gave and the answers were judged by the system by using fuzzy matching to match the overall context rather than matching exact wordings.
             </p>
+
+
+            <h3> Publication</h3>
+            <p>A. Singh, A. Singh and H. Kumar, "Natural Language Processing and its Impact on Academics and on Student's Efficiency and Effectiveness,"
+            2025 International Conference on Circuit, Systems and Communication (ICCSC), Fez, Morocco, 
+            2025, pp. 1-5, doi: 10.1109/ICCSC66714.2025.11135378. 
+            keywords: (Technological innovation;Reviews;Education;Semantics;Knowledge graphs;Manuals;Parallel processing;
+            Natural language processing;Libraries;Real-time systems;NLP;FUzzyWuzzy;SpaCy;Joblib;Parallel Processing;Education System),</p>
         </div>
+        <div className="Image"></div>
     </div>
     </>
   )
