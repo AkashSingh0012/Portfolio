@@ -37,33 +37,53 @@ function Page() {
     <>
       <Navbar />
 
-      <div className="ProjectDescripton">
+      <div className="ProjectDescription">
         <div className="Text">
           <h2>Contact me</h2>
-        <p> Feel free to reach out regarding opportunity, collaboration or project discussions.</p>
-        <br></br>
-        <div >
-        email: akashsingh.as.pb@gmail.com   
-        </div>
+        <p> Feel free to reach out regarding opportunity, collaboration or project discussions.</p>        
+        <div>
+  Email:{" "}
+  <a
+    href="mailto:akashsingh.as.pb@gmail.com"
+    style={{ color: "#b388ff" }}
+  >
+    akashsingh.as.pb@gmail.com
+  </a>
+</div>
         </div>
 
       </div>
       <br/>
-      <div> Want To get in Touch</div> 
-        <br/>
-        <br/>
-        <div className="ContactMe ">
-          <fieldset >
-            <label>Name</label><br/>
-            <input type="text" placeholder='Name' onChange={(e) => setName(e.target.value)}></input><br/>
-            <label>Email Address</label><br/>
-            <input type="text" placeholder='Email'   onChange={(e) => setEmail(e.target.value)}/><br/>
-            <label>Message</label><br/>
-            <textarea placeholder="Enter message here" rows={10} className="ContactMefield_messagebox" onChange={(e) => setMessage(e.target.value)}/> <br/>
-            <button type="submit" onClick={handleSubmit} >Submit </button>
-          </fieldset>
-        </div>
-      
+      <h3 className="ContactHeading">Want To Get In Touch?</h3>
+      <div className="ContactMe">
+    <fieldset className="ContactForm">
+      <label>Name</label>
+        <input
+          type="text"
+          placeholder="Name"
+          onChange={(e) => setName(e.target.value)}
+        />
+
+        <label>Email Address</label>
+        <input
+          type="email"
+          placeholder="Email"
+          onChange={(e) => setEmail(e.target.value)}
+        />
+
+        <label>Message</label>
+        <textarea
+          placeholder="Enter message here"
+          rows={10}
+          className="ContactMefield_messagebox"
+          onChange={(e) => setMessage(e.target.value)}
+        />
+
+        <button type="submit" onClick={handleSubmit}>
+          Submit
+        </button>
+      </fieldset>
+    </div>
     </>
   )
 }

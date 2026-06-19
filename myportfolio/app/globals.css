@@ -379,3 +379,106 @@ pre {
   margin: 0 auto;
 }
 /* FILE EXPLORER CSS ENDS */
+
+/* Contact Page */
+
+.ContactMe {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.ContactForm {
+  width: 100%;
+  max-width: 700px;
+
+  background: #1a1a2e;
+  border: 1px solid rgba(179, 136, 255, 0.3);
+  border-radius: 12px;
+
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  box-shadow: 0 4px 20px rgba(179, 136, 255, 0.15);
+}
+
+.ContactForm label {
+  color: #b388ff;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.ContactForm input,
+.ContactForm textarea {
+  width: 100%;
+
+  background: #111120;
+  color: white;
+
+  border: 1px solid rgba(179, 136, 255, 0.2);
+  border-radius: 8px;
+
+  padding: 12px;
+  font-size: 0.95rem;
+
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.ContactForm input::placeholder,
+.ContactForm textarea::placeholder {
+  color: #888;
+}
+
+.ContactForm input:focus,
+.ContactForm textarea:focus {
+  border-color: #b388ff;
+  box-shadow: 0 0 12px rgba(179, 136, 255, 0.25);
+}
+
+.ContactMefield_messagebox {
+  resize: vertical;
+  min-height: 200px;
+}
+
+.ContactForm button {
+  align-self: flex-start;
+
+  background: #b388ff;
+  color: black;
+
+  border: none;
+  border-radius: 8px;
+
+  padding: 12px 24px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.ContactForm button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(179, 136, 255, 0.35);
+}
+
+.ContactForm button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .ContactForm {
+    padding: 18px;
+  }
+}
+
+.ContactHeading {
+  text-align: center;
+  color: #b388ff;
+  font-size: 1.8rem;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
