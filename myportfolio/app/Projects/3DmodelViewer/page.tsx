@@ -19,9 +19,9 @@ function page() {
            <div style={{color:"#b388ff"}}>
            <Link href="https://3dmodel-viewer-ten.vercel.app" >ProjectdemoLive </Link>           
            </div>
-           <span> The Link has the model removed please procede as it is it going to load a sample model of cube instead of actual indian model</span>
+           <span> Note: The original India model has been removed from the public demo due to project restrictions. The viewer currently loads a placeholder cube model to demonstrate functionality.</span>
            
-           <h3> Additional Details</h3>
+           <h3> Design  Goals and workprocess</h3>
            <p> The following project was written on Next.js and React framework.
             Furthermore the model was designed by me as well using Blender.
             the major focus of the project was on customizability.

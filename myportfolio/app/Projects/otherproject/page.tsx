@@ -17,7 +17,7 @@ function page() {
         title ="Web Dev"
         image = "/otherprojects/web.png"
         tags={["html", "Next", "prisma" ]}
-        route="/Projects/UnderDevelopment"/>
+        route="/Projects/otherproject/Webdev"/>
         <Cardholder
         title=" UnityProjects"
         image="/otherprojects/GD.png"

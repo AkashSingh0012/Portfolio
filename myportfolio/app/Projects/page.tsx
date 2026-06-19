@@ -53,7 +53,7 @@ function Page() {
         priority={false}
         />
         <Cardholder
-        title=""
+        title="3D Model Viewer"
         image="/3dModelViewer.png"
         tags={["Next", "Three.js","JSON Config"]}
         route="/Projects/3DmodelViewer"
@@ -65,14 +65,14 @@ function Page() {
         route="/Projects/NLPtool"
         priority={false}
         />
-
+{/* 
         <Cardholder
         title="2d"
         image="/2d.png"
         tags={["Krita", "Tiles", "Art"]}
         route="/Projects/UnderDevlopment"
         priority={false}
-        />
+        /> */}
         
        
 

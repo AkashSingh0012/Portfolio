@@ -11,19 +11,19 @@ function page() {
     <div className="CardSpace">
         <Cardholder
         title ="QGIS Script"
-        image = "/Placeholder.png"
+        image = "/otherprojects/Python.png"
         tags={["Python", "QGIS" ]}
         route="/Projects/QGIS"/>
         <Cardholder
         title="Drought Prediction Model"
-        image="/Placeholder.png"
+        image="/otherprojects/Python.png"
         tags={["ML", "Python"]}
         route="/Projects/DroughtPrediction"/>
         <Cardholder
         title="Encryption Hypothesis"
-        image="/Placeholder.png"
+        image="/otherprojects/Python.png"
         tags={["Python"]}
-        route="/Project/Encryptionhypo"
+        route="/Projects/Encryptionhypo"
         />
     </div>
     </>

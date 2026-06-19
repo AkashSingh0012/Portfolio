@@ -49,7 +49,7 @@ function page() {
             </p>
            </div>
            <div className="Image">
-          <img src="/sheets.png"/>
+          <img src="/Sheets.png"/>
           
         </div>
         </div>

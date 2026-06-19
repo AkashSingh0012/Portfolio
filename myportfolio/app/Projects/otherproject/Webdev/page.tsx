@@ -7,10 +7,10 @@ function page() {
     <>
     <div className="CardSpace">
       <Cardholder
-      title="ResSummit-AbstractSubmission Form (Intern work ) "
-      image=""
+      title="RES Summit-AbstractSubmission Form (Intern work ) "
+      image="/Placeholder.png"
       tags={["Internship", "RES SUMMIT 2026"]}
-      route=""
+      route="/Projects/RESsummit"
       priority={false}
       />
     </div>

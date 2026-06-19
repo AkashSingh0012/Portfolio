@@ -4,7 +4,6 @@ import Navbar from '@/app/components/Navbar';
 import CodeBlock from '@/app/components/Code';
 function page() {
   return (
-
     <>
     <Navbar/>
 
@@ -25,4 +24,4 @@ function page() {
   )
 }
 
-export default page
+export default page 
