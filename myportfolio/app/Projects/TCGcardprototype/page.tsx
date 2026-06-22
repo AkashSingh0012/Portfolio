@@ -1,6 +1,7 @@
 "use client";
 import React from 'react'
 import Navbar from "@/app/components/Navbar";
+import { Analytics } from '@vercel/analytics/next';
 function page() {
    return (
     <>
@@ -43,7 +44,9 @@ function page() {
     <img src="/TCG.png" alt="TCG.png" />
   </div>
 </div>
+<Analytics/>
     </>
+    
   )
 }
 

@@ -1,7 +1,8 @@
 "use client";
 import Cardholder from '@/app/components/Cardholder';
 import Navbar from '@/app/components/Navbar';
-import React from 'react'
+import React from 'react';
+import { Analytics } from "@vercel/analytics/next";
 
 function page() {
   return (
@@ -14,6 +15,8 @@ function page() {
         tags={[]}
         route=""/>
     </div>
+    
+    <Analytics/>
     </>
   )
 }

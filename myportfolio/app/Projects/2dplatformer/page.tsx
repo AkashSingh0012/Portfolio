@@ -2,6 +2,7 @@
 import FileExplorer from "@/app/components/fileexplorer";
 import Navbar from "@/app/components/Navbar";
 import React from 'react'
+import { Analytics } from "@vercel/analytics/next"
 
 function page() {
   return (
@@ -253,6 +254,7 @@ public class CamScroll : MonoBehaviour
     </div>
   </div>
 </div>
+<Analytics/>
     </>
   )
 }

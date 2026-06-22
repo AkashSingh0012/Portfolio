@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '@/app/components/Navbar';
 import CodeBlock from '@/app/components/Code';
+import { Analytics } from "@vercel/analytics/next"
 function page() {
   return (
     <>
@@ -20,6 +21,7 @@ function page() {
     language='Python'
     FileName="As i even named them Properly all named SCRIPTS1.py"/>
     </div>
+    <Analytics/>
     </>
   )
 }

@@ -4,7 +4,7 @@ import React from "react";
 import Navbar from "@/app/components/Navbar";
 import Cardholder from "../components/Cardholder";
 import globals from "@/app/globals.css";
-
+import { Analytics } from "@vercel/analytics/next"
 function Page() {
   return (
     <>
@@ -86,6 +86,7 @@ function Page() {
         
 
       </div>
+      <Analytics/>
     </>
   );
 }

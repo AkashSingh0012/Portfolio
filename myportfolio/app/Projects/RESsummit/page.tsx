@@ -3,6 +3,7 @@
 import Navbar from '@/app/components/Navbar';
 import React from 'react'
 import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/next"
 function page() {
   return (
     <>
@@ -26,6 +27,7 @@ function page() {
                 </ul>
         </div>
     </div>
+    <Analytics/>
     </>
   )
 }

@@ -3,11 +3,12 @@ import { useRouter } from "next/navigation"
 import "./globals.css";
 import Navbar from "@/app/components/Navbar";
 import Socials from "@/app/components/socials";
-
+import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   const router= useRouter();
   return (
     <>
+    <Analytics/>
 
     <div style={{background:'black'}}><Navbar/></div>    
     <div className=" NameBlock">

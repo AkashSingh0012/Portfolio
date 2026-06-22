@@ -3,7 +3,7 @@ import CodeBlock from '@/app/components/Code';
 import Navbar from '@/app/components/Navbar';
 import Link from 'next/link';
 import React from 'react'
-
+import { Analytics } from "@vercel/analytics/next"
 function page() {
   return (
     <>
@@ -22,6 +22,7 @@ function page() {
             
     </div>
     </div>
+    <Analytics/>
     </>
   )
 }

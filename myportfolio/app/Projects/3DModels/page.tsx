@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '@/app/components/Navbar';
 import Cardholder from '@/app/components/Cardholder';
+import { Analytics } from "@vercel/analytics/next"
 function page() {
   return (
     <>
@@ -38,6 +39,7 @@ function page() {
             route=""/>
         </div>
     </div>
+    <Analytics/>
     </>
     
   )

@@ -1,7 +1,8 @@
 "use client";
 import React from 'react'
 import Navbar from "@/app/components/Navbar";
-import CodeBlock from '@/app/components/Code'
+import CodeBlock from '@/app/components/Code';
+import { Analytics } from "@vercel/analytics/next"
 function page() {
   return (<>
   <div className=" ProjectDescription">
@@ -538,6 +539,7 @@ if __name__ == "__main__":
     />
     </div>
     </div>
+    <Analytics/>
   </>
   )
 } 

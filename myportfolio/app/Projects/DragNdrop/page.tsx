@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from '@/app/components/Navbar';
 import CodeBlock from '@/app/components/Code';
 import FileExplorer from '@/app/components/fileexplorer';
+import { Analytics } from "@vercel/analytics/next"
 function page() {
   return (
     <>
@@ -207,11 +208,12 @@ public class countProps : MonoBehaviour
 }`
     }
 ]}
+
 />
 
 
 </div>
-    
+<Analytics/>    
     </>
   )
 }
